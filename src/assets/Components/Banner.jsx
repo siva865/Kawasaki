@@ -12,7 +12,7 @@ function Banner() {
  
 
   return (
-    <div className="relative flex flex-col items-center justify-center">
+    <div className="relative flex  flex-wrap flex-col items-center justify-center">
       <div className="absolute top-1/2 transform -translate-y-1/2 left-4 z-10">
         <FaAngleLeft style={iconStyle} />
       </div>
@@ -27,7 +27,7 @@ function Banner() {
      
       </div>
 
-      <button className="absolute bottom-10 bg-black border-2 border-green-700 text-white p-4 font-semibold text-2xl hover:cursor-pointer z-10">
+      <button className="absolute bottom-10 bg-black border-2 border-green-700 text-white py-2 px-3 md:py-3 md:px-6 font-semibold text-sm md:text-2xl hover:cursor-pointer z-10">
         Discover More
       </button>
     </div>
